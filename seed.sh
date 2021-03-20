@@ -41,6 +41,9 @@ sudo apt install -y vim
 BLUE "Installing git..."
 sudo apt install -y git
 
+BLUE "Installing chromium..."
+sudo apt install -y chromium
+
 BLUE "Installing pip..."
 sudo apt install -y python3-pip
 
@@ -67,6 +70,9 @@ sudo apt install -y wireshark
 
 BLUE "Installing chisel..."
 sudo apt install -y chisel
+
+BLUE "Installing sshuttle..."
+sudo apt install -y sshuttle
 
 BLUE "Installing python-requests..."
 pip install requests
@@ -124,6 +130,9 @@ sudo apt install -y dirbuster
 
 BLUE "Installing gobuster..."
 sudo apt install -y gobuster
+
+BLUE "Installing feroxbuster..."
+sudo apt install -y feroxbuster
 
 BLUE "Installing proxychains..."
 sudo apt install -y proxychains
